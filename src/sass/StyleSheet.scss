@@ -1,0 +1,54 @@
+:root
+{
+    --color-white: #FFFFFF;
+    --color-purple: #6610f2;
+    --color-purple-light: #7228e9;
+    --color-gray: #cecece;
+    --color-green-light: #B4D20E;
+}
+
+//Tags Default
+header,
+footer
+{
+    background-color: var(--color-purple) !important;
+}
+
+
+.navColor
+{
+    box-shadow: 0px 2px 30px var(--color-purple-light);
+    background-color: var(--color-purple);
+}
+.textActive
+{
+    color: var(--color-white) !important;
+}
+.textDisable
+{
+    color: var(--color-gray) !important;
+}
+.featureCard
+{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-purple) !important;
+    border-radius: 50% !important;
+    box-shadow: 8px 5px var(--color-gray);
+}
+.btnView
+{
+    background-color: transparent !important;
+    border-color: var(--color-white) !important;
+    color: var(--color-white) !important;
+}
+
+
+//Hover, Focus, Active
+.btnView:hover,
+.btnView:focus,
+.btnView:active
+{
+    background-color: var(--color-white) !important;
+    color: var(--color-purple) !important;
+}
